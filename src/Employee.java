@@ -32,6 +32,9 @@ public class Employee {
 		return age;
 	}
 
+	public int test() {
+		return 5;
+	}
 	public String getdesignation() {
 		return designation;
 	}
@@ -42,7 +45,7 @@ public class Employee {
 		}
 		return 0;
 	}
-
+//test
 	public static void main(String args[]) {
 		// creating a object
 		Employee empObj1 = new Employee();
